@@ -134,7 +134,7 @@ class Experiment():
                     x = total_data["X_Position"]
                     y = total_data["Y_Position"]
                 self.data[run]["X"] = x
-                self.data[run]["Y"] = x
+                self.data[run]["Y"] = y
             except:
                 print(f'WARNING: {run} failed to read data. Maybe Bad data file?')
     
